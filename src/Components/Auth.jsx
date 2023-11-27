@@ -35,11 +35,7 @@ const logout = async () => {
 }
 
     return (
-<<<<<<< HEAD
         <div className="auth">
-=======
-        <div>
->>>>>>> dfe3d6552db3f3cba18efd422ac6b6f3300db809
             <input 
             placeholder="Email..." 
             onChange={(e) => setEmail(e.target.value)} 
@@ -48,19 +44,11 @@ const logout = async () => {
             placeholder="Password..." 
             onChange={(e) => setPassword(e.target.value)} 
             />
-<<<<<<< HEAD
             <button className="sign-in" onClick={signIn}>Sign In</button>
 
             <button className="google" onClick={signInWithGoogle}>Sign In With Google</button>
 
             <button className="logout" onClick={logout}>Logout</button>
-=======
-            <button onClick={signIn}>Sign In</button>
-
-            <button onClick={signInWithGoogle}>Sign In With Google</button>
-
-            <button onClick={logout}>Logout</button>
->>>>>>> dfe3d6552db3f3cba18efd422ac6b6f3300db809
         </div>
     )
     }

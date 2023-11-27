@@ -144,9 +144,10 @@ a:hover {
   margin: 5% auto;
 }
 
-.mission-card {
+.mission-card-front {
   width: 95%;
   margin: 5% auto;
+  margin-bottom: 10%;
   background-color: #242424;
   color: rgba(255, 255, 255, 0.87);
   border-radius: 10px;
@@ -159,12 +160,12 @@ a:hover {
     width: 30%;
   }
 
-  .mission-card:hover {
+  .mission-card-front:hover {
     transform: scale(1.05);
     transition: transform 0.5s ease-in-out;
   }
 
-  .mission-card:hover .mission-title {
+  .mission-card-front:hover .mission-title {
     color: #730d0d;
     text-shadow: 5px 5px 5px #000000;
     transition: text-shadow 0.5s ease-in-out;
@@ -329,27 +330,6 @@ a:hover {
 .donate-img {
   border-radius: 15%;
   width: 40%;
-}
-
-.stop {
-  display: flex;
-  flex-direction: column;
-  margin: 5% auto; 
-}
-
-.waiting {
-  background-color: red;
-  text-shadow: 5px 5px 5px #000000;
-  margin-left: -20%;
-  margin-right: -20%;
-  margin-bottom: -15%;
-}
-
-.helping {
-  background-color: green;
-  text-shadow: 5px 5px 5px #000000;
-  margin-left: -20%;
-  margin-right: -20%;
 }
 
 .cta {

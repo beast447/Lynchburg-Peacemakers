@@ -1,7 +1,7 @@
 // Desc: This is the navbar component for the website
 // It contains the logo, the toggle button, and the links to the other pages.
 import { useRef } from 'react';
-import {FaBars, FaTimes} from 'react-icons/fa'; // FaBars is the hamburger icon, FaTimes is the X icon
+import {FaBars, FaFacebook, FaTimes} from 'react-icons/fa'; // FaBars is the hamburger icon, FaTimes is the X icon
 import Logo from '../assets/logo.jpg';
 
 function Navbar() {
@@ -20,6 +20,7 @@ function Navbar() {
                 <a href="#Mission">About</a>
                 <a href="#CTA">Contact</a>
                 <a href="#Donate">Donate</a>
+                <a href="https://www.facebook.com/profile.php?id=100087964808252"><FaFacebook /></a>
                 <button className="navbar-toggle-cancel-btn" onClick={toggleNav}>
                     <FaTimes />
                 </button>
