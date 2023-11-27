@@ -20,10 +20,7 @@
   top: 0;
   left: 0;
   width: 95%;
-<<<<<<< HEAD
   margin: 0% auto;
-=======
->>>>>>> dfe3d6552db3f3cba18efd422ac6b6f3300db809
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -186,7 +183,6 @@ a:hover {
     text-shadow: 2px 2px 2px #000000;
   }
 
-<<<<<<< HEAD
   .slider-heading {
     font-size: 4rem;
     font-weight: bold;
@@ -271,8 +267,6 @@ a:hover {
     }
   }
 
-=======
->>>>>>> dfe3d6552db3f3cba18efd422ac6b6f3300db809
   .facts-heading {
     font-size: 2.5rem;
     font-weight: bold;
@@ -337,7 +331,6 @@ a:hover {
   width: 40%;
 }
 
-<<<<<<< HEAD
 .stop {
   display: flex;
   flex-direction: column;
@@ -359,8 +352,6 @@ a:hover {
   margin-right: -20%;
 }
 
-=======
->>>>>>> dfe3d6552db3f3cba18efd422ac6b6f3300db809
 .cta {
   width: 95%;
   margin: 10% auto;
