@@ -5,7 +5,7 @@ import mission from '../assets/logo.jpg';
 
 function Mission() {
     return(
-        <div className="mission-card">
+        <div id="Mission" className="mission-card">
             <img className="mission-card-img" src={mission} alt="Peacemakers logo"></img>
             <h1 className="mission-title">Our Mission</h1>
             <p className="mission-para">The Lynchburg Peacemakers mission is to prevent conflicts from escalating into violent acts by providing people with the knowledge and skills needed to resolve disputes peacefully.

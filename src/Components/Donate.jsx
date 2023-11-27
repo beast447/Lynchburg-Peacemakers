@@ -6,7 +6,7 @@ import DonateImage from "../assets/donate.jpg";
 
 function Donate(){
     return(
-        <div className="donate">
+        <div id="Donate" className="donate">
             <h1>Donate Today</h1>
             <img className="donate-img" src={DonateImage} alt="Donate"/>
         </div>

@@ -6,13 +6,15 @@
 
 import HeroBackground from "../assets/hero.jpg";
 import Squash from "../assets/squash.png";
+import Title from "../assets/title.png";
+import Overcome from "../assets/overcome.png";
 
 function Hero() {
     return (
-        <div className="hero">
-            <h1>Lynchburg Peacemakers</h1>
+        <div id="Hero" className="hero">
+            <img className="title" src={Title} alt="A picture of the Lynchburg Peacemakers logo"/>
             <img className="squash" src={Squash} alt="A picture of two mens argument being mediated by another man"/>
-            <h1>Overcoming Violence through Opportunity</h1>
+            <img className="overcome" src={Overcome} alt="A picture of a man overcoming a conflict"/>
         </div>
     );
 }

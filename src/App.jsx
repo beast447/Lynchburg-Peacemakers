@@ -7,6 +7,9 @@ import Facts from './Components/Facts';
 import CTA from './Components/CTA';
 import Donate from './Components/Donate';
 import Footer from './Components/Footer';
+import {Auth} from './Components/Auth';
+import Slider from './Components/Slider';
+import Stop from './Components/Stop';
 
 function App() {
   return(
@@ -15,6 +18,8 @@ function App() {
       <Hero />
       <Mission />
       <Facts />
+      <Slider />
+   
       <CTA />
       <Donate />
       <Footer />
