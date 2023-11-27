@@ -50,12 +50,18 @@
   transition: opacity 0.5s ease-in-out;
 }
 
+.faceBook {
+  width: 2rem;
+  height: 2rem;
+  margin-top: 0.8rem;
+}
+
 @media only screen and (max-width: 1024px) {
   .navbar .navbar-toggle {
     visibility: visible;
     opacity: 1;
     transition: opacity 0.5s ease-in-out;
-    margin-left: -15%;
+    margin-left: -20%;
   }
   .navbar a {
     visibility: hidden;

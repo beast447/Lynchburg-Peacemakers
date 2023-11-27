@@ -9,7 +9,8 @@ import Donate from './Components/Donate';
 import Footer from './Components/Footer';
 import {Auth} from './Components/Auth';
 import Slider from './Components/Slider';
-import Stop from './Components/Stop';
+
+
 
 function App() {
   return(

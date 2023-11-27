@@ -20,7 +20,7 @@ function Navbar() {
                 <a href="#Mission">About</a>
                 <a href="#CTA">Contact</a>
                 <a href="#Donate">Donate</a>
-                <a href="https://www.facebook.com/profile.php?id=100087964808252"><FaFacebook /></a>
+                <a className="faceBook" href="https://www.facebook.com/profile.php?id=100087964808252"><FaFacebook /></a>
                 <button className="navbar-toggle-cancel-btn" onClick={toggleNav}>
                     <FaTimes />
                 </button>
