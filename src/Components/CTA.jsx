@@ -32,7 +32,11 @@ function CTA() {
 
     return (
         <section className="cta">
+<<<<<<< HEAD
             <h1 id="CTA" className="cta-title">Contact Us Today and Change The Stats</h1>
+=======
+            <h1 className="cta-title">Contact Us Today and Change The Stats</h1>
+>>>>>>> dfe3d6552db3f3cba18efd422ac6b6f3300db809
             <div className="overlay">
                 <form>
                     <h2>Name:</h2>{" "}

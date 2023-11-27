@@ -15,11 +15,19 @@ function Navbar() {
         <header>
             <nav ref={navRef} className="navbar">
                 <img className="navbar-img" src={Logo} alt="Lynchburg peacemakers logo"/>
+<<<<<<< HEAD
                 <a href="#Hero">Home</a>
                 <a href="#">Store</a>
                 <a href="#Mission">About</a>
                 <a href="#CTA">Contact</a>
                 <a href="#Donate">Donate</a>
+=======
+                <a href="#">Home</a>
+                <a href="#">Store</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Donate</a>
+>>>>>>> dfe3d6552db3f3cba18efd422ac6b6f3300db809
                 <button className="navbar-toggle-cancel-btn" onClick={toggleNav}>
                     <FaTimes />
                 </button>
