@@ -48,7 +48,6 @@
   visibility: hidden;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
-
 }
 
 @media only screen and (max-width: 1024px) {
@@ -56,6 +55,7 @@
     visibility: visible;
     opacity: 1;
     transition: opacity 0.5s ease-in-out;
+    margin-left: -15%;
   }
   .navbar a {
     visibility: hidden;
