@@ -104,8 +104,6 @@
   transition: opacity 0.5s ease-in-out;
 }
 
-
-
 a {
   color: #ffffff;
   text-decoration: none;
@@ -161,9 +159,37 @@ a:hover {
   padding: 1rem;
   }
 
+.mission-card-back {
+  width: 95%;
+  margin: 5% auto;
+  margin-bottom: 10%;
+  background-color: #242424;
+  color: rgba(255, 255, 255, 0.87);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+}
+
+.services-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.services-list {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+  text-shadow: 2px 2px 2px #000000;
+}
+
   .mission-card-img {
     border-radius: 50%;
     width: 30%;
+  }
+
+  .mission-card-img:hover {
+    transform: scale(1.0) rotate(360deg);
+    transition: transform 0.5s ease-in-out;
   }
 
   .mission-card-front:hover {
@@ -172,6 +198,18 @@ a:hover {
   }
 
   .mission-card-front:hover .mission-title {
+    color: #730d0d;
+    text-shadow: 5px 5px 5px #000000;
+    transition: text-shadow 0.5s ease-in-out;
+    transition: color 0.5s ease-in-out;
+  }
+
+  .mission-card-back:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .mission-card-back:hover .services-title {
     color: #730d0d;
     text-shadow: 5px 5px 5px #000000;
     transition: text-shadow 0.5s ease-in-out;
