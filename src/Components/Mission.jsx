@@ -6,7 +6,7 @@ import { useState } from 'react';
 
 function Mission() {
     
-    const [isFlipped, setIsFlipped] = useState(false);
+    const [isFlipped, setIsFlipped] = useState(true);
 
     const handleCardClick = () => {
         setIsFlipped(!isFlipped);
