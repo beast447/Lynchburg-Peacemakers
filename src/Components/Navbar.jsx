@@ -1,7 +1,7 @@
 // Desc: This is the navbar component for the website
 // It contains the logo, the toggle button, and the links to the other pages.
 import { useRef } from 'react';
-import {FaBars, FaFacebook, FaTimes} from 'react-icons/fa'; // FaBars is the hamburger icon, FaTimes is the X icon
+import {FaBars, FaFacebook, FaPhone, FaTimes} from 'react-icons/fa'; // FaBars is the hamburger icon, FaTimes is the X icon
 import Logo from '../assets/logo.jpg';
 
 function Navbar() {
