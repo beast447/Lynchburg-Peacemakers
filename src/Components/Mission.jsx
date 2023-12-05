@@ -17,8 +17,9 @@ function Mission() {
                 <h3 className="click-logo">Click the logo to learn more!</h3>
                 <img className="mission-card-img" src={mission} onClick={handleCardClick} alt="Peacemakers logo"></img>
                 <h1 className="mission-title">Our Mission</h1>
-                <p className="mission-para">The Lynchburg Peacemakers mission is to prevent conflicts from escalating into violent acts by providing people with the knowledge and skills needed to resolve disputes peacefully.
-                <br />The Peacemakers conflict resolution program involves increasing problem solving and conflict mediation skills as well as providing community patrols.</p>
+                <p className="mission-para">The mission of Peacemakers Inc. is to cultivate a harmonious society by promoting non-violence
+                and conflict resolution through empowerment, education, and community engagement.<br/>
+                We are commited to creating a world where individuals and communities can thrive peacefully, free from the impacts of violence.</p>
             </div>
     );
     } else { 
