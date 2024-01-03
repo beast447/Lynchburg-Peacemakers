@@ -228,6 +228,25 @@ a:hover {
     text-shadow: 2px 2px 2px #000000;
   }
 
+  #supporter-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .supporter {
+    width: 20%;
+    margin: 5% auto;
+    background-color: #242424;
+    color: rgba(255, 255, 255, 0.87);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+  }
+
   .slider-heading {
     font-size: 4rem;
     font-weight: bold;
