@@ -1,5 +1,4 @@
 
-/*
 import Grand from '../assets/Grand.png';
 import Cotton from '../assets/Cotton.png'; 
 import Kroger from '../assets/Kroger.svg';
@@ -43,4 +42,3 @@ function Sponsors() {
 }
 
 export default Sponsors;
-*/

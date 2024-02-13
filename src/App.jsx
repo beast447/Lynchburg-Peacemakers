@@ -9,7 +9,7 @@ import Donate from './Components/Donate';
 import Footer from './Components/Footer';
 import {Auth} from './Components/Auth';
 import Slider from './Components/Slider';
-
+import Sponsers from './Components/Sponsors';
 
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
       <Navbar />
       <Hero />
       <Mission />
+      <Sponsers />
       <Facts />
       <Slider />
       <CTA />
