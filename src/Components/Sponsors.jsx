@@ -18,7 +18,7 @@ function Sponsors() {
         <>
         <div id="supporter-heading">
             <h1>A connected community is a safer community</h1>
-            <h2>Thank you to our sponsors</h2>
+            <h2>A big thank you to our sponsors</h2>
         </div>
         <div id="supporter-container">
             <img className="supporter" src={Grand}></img>
