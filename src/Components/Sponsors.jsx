@@ -1,8 +1,7 @@
-
-import Grand from '../assets/Grand.png';
-import Cotton from '../assets/Cotton.png'; 
-import Kroger from '../assets/Kroger.svg';
-import Wired from '../assets/Wired.png';
+import Grand from '../assets/grand.png';
+import Cotton from '../assets/cotton.png'; 
+import Kroger from '../assets/kroger.svg';
+import Wired from '../assets/wired.png';
 import AMA from '../assets/ama.png';
 import Auto from '../assets/auto.png';
 import Sams from '../assets/sams.png';
