@@ -397,6 +397,22 @@ a:hover {
   width: 40%;
 }
 
+.paypal-button {
+  width: 95%;
+  padding: 1rem;
+  margin: 1rem auto;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background-color: #730d0d;
+  color: rgba(255, 255, 255, 0.87);
+  font-weight: bold;
+  font-size: large;
+}
+.paypal-button:hover {
+  transform: scale(1.05);
+  transition: transform 0.5s ease-in-out;
+}
+
 .cta {
   width: 95%;
   margin: 10% auto;

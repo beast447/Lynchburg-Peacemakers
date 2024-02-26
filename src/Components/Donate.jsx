@@ -11,6 +11,11 @@ function Donate(){
             <img className="donate-img" src={DonateImage} alt="Donate"/>
             <h2>We are now also accepting mailed checks or money orders at:</h2>
             <h3>Lynchburg Peacemakers Inc. 1601 12th Street, Lynchburg, VA, 24501</h3>
+            <h3>Or, donate to us via PayPal utilizing the button below</h3>
+            <button 
+            type="button" 
+            onClick={() => window.open("https://www.paypal.com/paypalme/LynchburgPeacemakers")}
+            className="paypal-button">Click here to be taken to PayPal</button>
         </div>
     );
 }
